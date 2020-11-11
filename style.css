@@ -26,13 +26,14 @@ body {
 }
 
 .person {
-
+  display: flex;
+  align-items: flex-start;
 }
 
 .person__description {
-    font-size: 16px;
-    line-height: 22px;
-    margin: 0;
+  font-size: 16px;
+  line-height: 22px;
+  margin: 0;
 }
 
 .person__description--with-margin {
@@ -44,26 +45,29 @@ body {
 }
 
 .person__link {
-  color: #E20613;
+  color: #e20613;
   text-decoration: none;
 }
 
 .person__name {
-    font-size: 36px;
-    margin: 0;
-    font-weight: normal;
-}
-
-.person__position {
-    font-size: 18px;
-    margin: 0;
-    font-weight: normal;
-    color: #545454;
-    font-style: italic;
-}
-
-.special {
-  color: #ED6D05;
+  font-size: 36px;
+  margin: 0;
   font-weight: normal;
 }
 
+.person__picture {
+  margin-right: 32px;
+}
+
+.person__position {
+  font-size: 18px;
+  margin: 0;
+  font-weight: normal;
+  color: #545454;
+  font-style: italic;
+}
+
+.special {
+  color: #ed6d05;
+  font-weight: normal;
+}
